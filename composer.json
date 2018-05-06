@@ -1,6 +1,6 @@
 {
-  "name": "amylian/yii2-amylian-base",
-  "description": "ATTENTION: EXPERIMENTAL! Core package for all Amylian packages",
+  "name": "amylian/amylian-utils",
+  "description": "ATTENTION: EXPERIMENTAL! Amylian Utilities",
   "type": "library",
   "license": "BSD-3-Clause",
   "authors": [{
