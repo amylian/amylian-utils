@@ -13,9 +13,6 @@
   "suggest": {
     "php": ">=7.0"
   },
-  "require-dev": {
-    "amylian/amylian-phpunit": "*"
-  },
   "autoload": {
     "psr-4": {
       "abexto\\amylian\\utils\\": "src/"
