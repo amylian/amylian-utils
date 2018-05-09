@@ -32,7 +32,7 @@
  * 
  */
 
-namespace abexto\amylian\utils\filepath;
+namespace amylian\utils\filepath;
 
 /**
  * Description of Helper

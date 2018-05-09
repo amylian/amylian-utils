@@ -32,7 +32,7 @@
  * 
  */
 
-namespace abexto\amylian\utils;
+namespace amylian\utils;
 
 /**
  * Description of FilePath

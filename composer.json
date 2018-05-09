@@ -15,12 +15,12 @@
   },
   "autoload": {
     "psr-4": {
-      "abexto\\amylian\\utils\\": "src/"
+      "amylian\\utils\\": "src/"
     }    
   },
   "autoload-dev": {
     "psr-4": {
-      "abexto\\amylian\\utils\\tests\\": "tests/"
+      "amylian\\utils\\tests\\": "tests/"
     }    
   }
 }
