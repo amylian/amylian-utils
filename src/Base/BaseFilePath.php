@@ -32,7 +32,7 @@
  * 
  */
 
-namespace amylian\utils\filepath;
+namespace Amylian\Utils\Base;
 
 /**
  * Description of Helper

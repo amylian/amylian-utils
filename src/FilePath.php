@@ -32,13 +32,13 @@
  * 
  */
 
-namespace amylian\utils;
+namespace Amylian\Utils;
 
 /**
  * Description of FilePath
  *
  * @author Andreas Prucha, Abexto - Helicon Software Development
  */
-class FilePath extends filepath\BaseFilePath
+class FilePath extends Base\BaseFilePath
 {
 }
