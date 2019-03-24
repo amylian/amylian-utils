@@ -35,7 +35,7 @@
 namespace Amylian\Utils\Base;
 
 /**
- * Description of Helper
+ * Path Helpers
  *
  * @author Andreas Prucha, Abexto - Helicon Software Development
  */
