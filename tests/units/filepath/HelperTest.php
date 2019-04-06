@@ -32,7 +32,7 @@
  * 
  */
 
-namespace Amylian\Utils\tests\units\filepath;
+namespace Amylian\Utils\Tests\Units\filepath;
 
 /**
  * Description of HelperTest
