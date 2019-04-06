@@ -32,7 +32,7 @@
  * 
  */
 
-namespace amylian\utils\tests\units\filepath;
+namespace Amylian\Utils\tests\units\filepath;
 
 /**
  * Description of HelperTest
@@ -43,37 +43,37 @@ class HelperTest extends \PHPUnit\Framework\TestCase
 {
     public function testcleanpathOnExistingCleanFileAndEverythingDefault()
     {
-        $this->assertSame(\amylian\utils\FilePath::cleanpath(__FILE__), __FILE__);
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath(__FILE__), __FILE__);
     }
     
     public function testcleanpathOnExistingCleanDirAndEverythingDefault()
     {
-        $this->assertSame(\amylian\utils\FilePath::cleanpath(__DIR__), __DIR__);
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath(__DIR__), __DIR__);
     }
     
     public function testcleanpathOnExistingRelativeFileAndEverythingDefault()
     {
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('HelperTest.php',  __DIR__),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('HelperTest.php',  __DIR__),
                          __DIR__.'/HelperTest.php');
     }
     
     public function testcleanpathOnExistingRelativeFileDirAndEverythingDefault()
     {
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('HelperTest.php',  __DIR__),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('HelperTest.php',  __DIR__),
                          __DIR__.'/HelperTest.php');
     }
     
     public function testCleanpathMisc()
     {
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('./To/FileName',  '/A/Path'),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('./To/FileName',  '/A/Path'),
                          '/A/Path/To/FileName');
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('../Relative/Path/To/FileName',  '/A/Path'),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('../Relative/Path/To/FileName',  '/A/Path'),
                          '/A/Relative/Path/To/FileName');
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('./With/Messy\\../Correct/Path\\Mixture',  'A:\\Windows\\Path'),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('./With/Messy\\../Correct/Path\\Mixture',  'A:\\Windows\\Path'),
                          'A:/Windows/Path/With/Correct/Path/Mixture');
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('./With/Messy\\../Correct/Path\\Mixture',  'A:\\Windows\\Path'),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('./With/Messy\\../Correct/Path\\Mixture',  'A:\\Windows\\Path'),
                          'A:/Windows/Path/With/Correct/Path/Mixture');
-        $this->assertSame(\amylian\utils\FilePath::cleanpath('sub/index.php?req=param',  'https://example.com/'),
+        $this->assertSame(\Amylian\Utils\Helper\FilePathHelper::cleanpath('sub/index.php?req=param',  'https://example.com/'),
                          'https://example.com/sub/index.php?req=param');
     }
     

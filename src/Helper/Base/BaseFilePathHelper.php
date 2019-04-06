@@ -32,14 +32,14 @@
  * 
  */
 
-namespace Amylian\Utils\Base;
+namespace Amylian\Utils\Helper\Base;
 
 /**
  * Path Helpers
  *
  * @author Andreas Prucha, Abexto - Helicon Software Development
  */
-class BaseFilePath
+abstract class BaseFilePathHelper
 {
 
     /**

@@ -32,13 +32,13 @@
  * 
  */
 
-namespace Amylian\Utils;
+namespace Amylian\Utils\Helper;
 
 /**
  * Description of FilePath
  *
  * @author Andreas Prucha, Abexto - Helicon Software Development
  */
-class FilePath extends Base\BaseFilePath
+class FilePathHelper extends Base\BaseFilePathHelper
 {
 }
