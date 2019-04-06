@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace amylian\yii\base\common;
+namespace Amylian\Utils\Common;
 
 /**
  * Description of Exception
