@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace Amylian\Utils\Common;
+namespace Amylian\Utils\Exception;
 
 /**
  * Description of Exception

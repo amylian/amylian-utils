@@ -110,7 +110,7 @@ trait ṔropertyTrait
         if (method_exists($this, $methodName)) {
             return $this->$methodName();
         } else {
-            throw new \Amylian\Utils\Common\UnknownPropertyException('Error getting property: "'.$propertyName.
+            throw new \Amylian\Utils\Exception\UnknownPropertyException('Error getting property: "'.$propertyName.
                     '" in object of class. "'.get_class($this).' Getter "get'.ucfirst($propertyName).'" not implemented');
         }
     }
@@ -129,7 +129,7 @@ trait ṔropertyTrait
         if (method_exists($this, $methodName)) {
             $this->$methodName($value);
         } else {
-            throw new \Amylian\Utils\Common\UnknownPropertyException ('Error seting property: "'.$propertyName.
+            throw new \Amylian\Utils\Exception\UnknownPropertyException ('Error seting property: "'.$propertyName.
                     '" in object of class. "'.get_class($this).' Setter "set'. ucfirst($propertyName).'" not implemented');
         }
     }
@@ -158,7 +158,7 @@ trait ṔropertyTrait
         if (method_exists($this, $methodName)) {
             $this->$methodName(null);
         } else {
-            throw new \Amylian\Utils\Common\UnknownPropertyException('Error seting property: "'.$propertyName.
+            throw new \Amylian\Utils\Exception\UnknownPropertyException('Error seting property: "'.$propertyName.
                     '" in object of class. "'.get_class($this).' Setter "set'. ucfirst($propertyName).'" not implemented');
         }
     }

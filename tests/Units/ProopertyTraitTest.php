@@ -84,6 +84,14 @@ class ProopertyTraitTest extends \PHPUnit\Framework\TestCase
         $this->assertFalse(isset($obj->prop));
     }
     
+    public function testUnknownPropertyException()
+    {
+        $this->expectException(\Amylian\Utils\Exception\UnknownPropertyException::class);
+        $this->expectException(\Amylian\Utils\Exception\AmylianExceptionInterface::class);
+        $obj = new \Amylian\Utils\Tests\Support\ObjectWithProperties();
+        $obj->unknownProperty = true; 
+    }
+    
     
     
 }

@@ -6,14 +6,14 @@
  * and open the template in the editor.
  */
 
-namespace Amylian\Utils\Common;
+namespace Amylian\Utils\Exception;
 
 /**
  * Description of UnknownPropertyException
  *
  * @author andreas
  */
-class UnknownPropertyException extends \Amylian\Utils\Common\Exception
+class UnknownPropertyException extends \Amylian\Utils\Exception\Exception
 {
     //put your code here
 }

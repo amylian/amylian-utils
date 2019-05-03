@@ -32,7 +32,7 @@
  * 
  */
 
-namespace Amylian\Utils\Common;
+namespace Amylian\Utils\Exception;
 
 /**
  * Identifies Exceptions of the Amylian library
