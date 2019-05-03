@@ -13,7 +13,7 @@ namespace Amylian\Utils\Common;
  *
  * @author andreas
  */
-class Exception extends \Exception
+class Exception extends \Exception implements AmylianExceptionInterface
 {
     //put your code here
 }

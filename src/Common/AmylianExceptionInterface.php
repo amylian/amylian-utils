@@ -1,10 +1,10 @@
 <?php
 
-/* 
+/*
  * BSD 3-Clause License
  * 
- * Copyright (c) 2018, Abexto - Helicon Software Development / Amylian Project
- * 
+ * Copyright (c) 2019, Abexto - Helicon Software Development / Amylian Project
+ *  
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
  * 
@@ -32,13 +32,14 @@
  * 
  */
 
-//
-// Find the vendor dir and load the autoloader
-//
-$autoLoader = __DIR__.'/../vendor/autoload.php'; // Try at the usual location of vendor
-if (file_exists($autoLoader)) {
-    require_once $autoLoader;
-} else {
-    $autoLoader = __DIR__.'/../../../autoload.php'; // As no vendor dir could be found, the package is propably in the vendor dir
-    require_once $autoLoader;
+namespace Amylian\Utils\Common;
+
+/**
+ * Identifies Exceptions of the Amylian library
+ * 
+ * @author Andreas Prucha, Abexto - Helicon Software Development <andreas.prucha@gmail.com>
+ */
+interface AmylianExceptionInterface
+{
+    //put your code here
 }
