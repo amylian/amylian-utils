@@ -1,6 +1,6 @@
 {
-  "name": "amylian/amylian-utils",
-  "description": "ATTENTION: EXPERIMENTAL! Amylian Utilities",
+  "name": "amylian/utils",
+  "description": "Amylian Core Utilities",
   "type": "library",
   "license": "BSD-3-Clause",
   "authors": [{
