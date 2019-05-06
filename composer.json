@@ -16,7 +16,8 @@
   "autoload": {
     "psr-4": {
       "Amylian\\Utils\\": "src/"
-    }    
+    },
+    "files": ["src/funcs.php"]    
   },
   "autoload-dev": {
     "psr-4": {
